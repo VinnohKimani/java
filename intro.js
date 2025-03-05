@@ -36,3 +36,62 @@ age = 89;
 console.log(age);
 age = 30;
 console.log(age);
+
+
+const firstName = "Lionel"
+console.log(typeof firstName);
+const lastName = "Messi";
+console.log(typeof lastName);
+console.log(firstName + " " +lastName);
+const studentFirstName = "Vincent";
+const studentMiddleName = "Macharia";
+const studentLastName = "Kimani";
+console.log(studentFirstName + " " + studentMiddleName + " " + studentLastName);
+
+console.log(`Kimani ${studentMiddleName} age is ${2025 - 2005}`);
+console.log(`${firstName} ${lastName}`);
+console.log(typeof fullName);
+
+Number = 5000 - 8000;
+console.log(Number);
+console.log(typeof Number);
+const money= "$" + 60000;
+console.log(money);
+console.log(typeof money);
+
+console.log(typeof 800);
+console.log(typeof -9090);
+console.log(typeof Math.sqrt(- 4));
+console.log(Math.sqrt(25));
+console.log(typeof Math.sqrt);
+console.log(typeof Math.sqrt(25));
+
+console.log(typeof true);
+console.log(typeof false);
+
+const student = {
+   name: "Joseph",
+   class: "Web9",
+   studentEmail:"joseph@student.moringaschool.com",
+   age : "20",
+   regNumber:"SCT222-0131/ 2024",
+   isDisciplined:true ,  
+}
+console.log(student);
+
+const supraMk4 ={
+   carName: "Supra MK4",
+   engine: "2JZ-series",
+   accelration: "100 km/h in 4.9 sec",
+   topSpeed: " 277km/h",
+   horsePower:"220 HP",
+}
+console.log(supraMk4);
+
+const cars = ["gtr", "skyLine", "supra"]
+const value = ["$" + 5000, "$"+6000, "$"+80000]
+console.log(cars + " " + value);
+console.log(typeof cars + " " + value);
+
+
+
