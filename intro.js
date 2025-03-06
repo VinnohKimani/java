@@ -94,4 +94,63 @@ console.log(cars + " " + value);
 console.log(typeof cars + " " + value);
 
 
+// Statements 
+// collection of data with key value pairs
+const car = {
+   engine: "V8",
+   color: "Black",
+   brand: "Toyota",
+   seatCapacity: "2",
+   owner: {
+      firstName: "David",
+      phone: "0701804607",
+      ["full name"]:"David Kiptum"
+   },
+   previousOwners:["Tony"],
+}
 
+console.log(car.seatCapacity);
+console.log(car.owner["full name"]);
+console.log(car.brand);
+console.log(car["owner"]["phone"]);
+
+const student2 = {
+   name: "Kimani Macharia",
+   age: "19",
+   gender: "Male",
+   class: {
+      cohort: "SDF-FT13",
+      name: "Web9",
+      tm: {
+         name: "Nelson",
+         yearsOfexperience: "2",
+      },
+   numberOfstudents:"41",
+   classModule:"SD",
+   }
+}
+console.log(student2.class.tm.name);
+console.log(student2['class']['tm']['yearsOfexperience']);
+console.log(student2);
+console.log(`${student2.class.classModule},${student2.class.tm.name}`);
+// to check for a propery in an object:
+
+console.log("A quick brown fox".includes("fox"));
+// to update properties
+student2.regNumber = "sct333";
+console.log(student2.regNumber);
+// delete properties
+delete student2.regNumber;
+console.log(student2);
+
+// Object methods
+// 1.Object.keys()-> returns an array of object keys
+console.log(Object.keys(student2));
+
+// 2. Object.values() -> returns an array of values
+console.log(Object.values(student2));
+
+const key = "engine"
+console.log(car[key]);
+// smae thing as with 154 and 153
+console.log(car[`engine`]);
