@@ -154,3 +154,37 @@ const key = "engine"
 console.log(car[key]);
 // smae thing as with 154 and 153
 console.log(car[`engine`]);
+
+
+// Functions allow reuserability
+// D.R.Y Do not repeat yourself
+// Can accept one or more parameters seperated by a comma
+// Parameter -> varriables listed in the parenthis of a function
+// Arguments -> Values that are passed when colling a function
+// In order for declared functions to run we need to call/invoke them
+
+// syntax
+function functionName() {
+   // function body
+}
+
+console.log("Good morning Vincent");
+// Fuction Declaration
+function greeting(name) {
+   console.log(`Good morning ${name}`);
+}
+// call/ execute the function
+greeting("kimani");
+greeting("Anna");
+greeting("Joseph");
+
+function sum(x , y){
+   console.log(x + y);
+}
+sum(6, 5);
+sum(2, 2);
+
+function greetings(firstName, lastName) {
+   return `good morning ${firstName} ${lastName}`;
+}
+console.log(greetings('Macharia', 'Kimani'));
